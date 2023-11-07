@@ -9,7 +9,7 @@
 .container_body{
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 10% 300% 20%;
+    grid-template-rows: 10% 230% 50%;
     width: 100vw;
     height: 100vh;
 } /* Div do corpo do site */
@@ -171,10 +171,37 @@
     font-size: 12px;
     text-align: left;
 }
-
-
+.Servicos_main{
+    width: 100vw;
+    background-color: #ffd3c1;
+    height: 400px;
+    padding-top: 40px ;
+}
+.title_servicos_index{
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 20px;
+    color: #616161;
+}
+.container_servicos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.img_servicos img{
+    height: 170px;
+    width: 170px;
+}
+.img_servicos{
+    display: flex;
+    flex-direction: column;
+}
+.img_servicos p{
+    font-size: 15px;
+    text-align: center;
+}
 .footer{
-    background-color: rgb(2, 2, 2);
+    background-color: #ffff;
     
 }
 
