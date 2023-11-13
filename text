@@ -1,0 +1,127 @@
+<div class="container-fluid">
+        <div class="nav">
+            <div class="logo">
+                <img src="assents/img/logo.png" alt="">
+            </div>
+            <div class="nav_bar">
+                <ul class="nav_list">
+                    <li class="nav_item"><a href="index.html">Home</a></li>
+                    <li class="nav_item"><a href="servicos.html">Serviços</a></li>
+                    <li class="nav_item"><a href="contato.html">Contato</a></li>
+                </ul>
+            </div>
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="assents/img/menu.png" alt=""></button>
+            </div>
+            <div class="mobile-menu">
+                <ul class="nav_list">
+                    <li class="nav_item"><a href="index.html">Home</a></li>
+                    <li class="nav_item"><a href="servicos.html">Serviços</a></li>
+                    <li class="nav_item"><a href="contato.html">Contato</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="section">
+            <section class="containerproje">
+                <div class="slide-container active">
+                    <div class="slide">
+                     <div class="contentproje">
+                        
+                     </div>
+                    </div>
+                </div>
+        
+                <div class="slide-container">
+                    <div class="slide">
+                     <div class="contentproje">
+                    
+                     </div>
+                    </div>
+                </div>
+                <div class="slide-container">
+                    <div class="slide">
+                     <div class="contentproje">
+                    
+                     </div>
+                    </div>
+                </div>
+                <div id="prev" onclick="prev()"> < </div>
+                <div id="next" onclick="next()"> > </div>
+            </section>
+            <main class="sobre">
+                <div class="sobre_conteudo">
+                    <div class="img_sobre">
+                        <img src="assents/img/sobre_img.jpg" alt="">
+                    </div>
+                    <div class="text_sobre">
+                        <div class="title_sobre">
+                            <h4 class="h4_title_sobre">Sobre</h4>
+                            <h1>Lucia Pereira</h1>
+                        </div>
+                        <div class="conteudo_sobre">
+                            <p>Sou um Profissional Organizer, trazendo uma vasta experiência e conhecimento para o campo da
+                                organização. Me destaco na criação de ambientes organizados e eficientes para meus clientes. Minha paixão pela
+                                organização e minhas habilidade em ajudar as pessoas a simplificar suas vidas proporcionou a quem venho ajudando um
+                                recurso valioso para aqueles que buscam maior eficiência e produtividade. A minha dedicação à organização não apenas
+                                transforma espaços, mas também melhora a qualidade de vida de meus clientes, permitindo que eles desfrutem de um
+                                ambiente mais organizado e tranquilo. A minha carreira e sucesso na área de organização refletem as habilidade
+                                excepcional em transformar o caos em ordem.</p>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <section class="Servicos_main">
+                <h1 class="title_servicos_index">Serviços</h1>
+                <div class="container_servicos">
+                    <div class="img_servicos">
+                        <img src="assents/img/icon_baby.png" alt="">
+                        <p>BABY ORGANIZER</p>
+                    </div>
+                    <div class="img_servicos">
+                        <img src="assents/img/icon_mudanças.png" alt="">
+                        <p>ORGANIZAÇÃO <br> DE MUDANÇAS</p>
+                    </div>
+                    <div class="img_servicos">
+                        <img src="assents/img/icon_residencial.png" alt="">
+                        <p>ORGANIZAÇÃO <br> RESIDENCIAL</p>
+                    </div>
+                    <div class="img_servicos">
+                        <img src="assents/img/icon_mentorias.png" alt="">
+                        <p>MENTORIAS</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="footer">
+            <h1>Siga Nossas Redes Socias</h1>
+            <div class="container_footer">
+                <div class="logo_footer">
+                    <img src="assents/img/logo.png" alt="">
+                </div>
+                <div class="icon_wpp">
+                    <a href="https://api.whatsapp.com/send/?phone=5511964312731&text&type=phone_number&app_absent=0">
+                    <img src="assents/img/icon_wp.png" alt="" >
+                    </a>
+                </div>
+                <div class="icon_footer">
+                    <div class="icon_redes">
+                        <a href="https://www.instagram.com/lu_organize/">
+                            <img src="assents/img/icon_ig.png" alt="">
+                        </a>
+                    </div>
+                    <div class="icon_redes">
+                        <a href="https://www.instagram.com/lu_organize/">
+                            <img src="assents/img/icon_fb.png" alt="">
+                        </a>
+                    </div>
+                    <div class="icon_redes">
+                        <a href="https://www.instagram.com/lu_organize/">
+                            <img src="assents/img/icon_yt.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                
+            </div>
+            <p class="straw">Desenvolvido por Straw Hat Tech</p>
+        </div>
+    </div>

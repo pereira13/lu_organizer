@@ -5,84 +5,136 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/assents/css/style.css">
     <link rel="shortcut icon" href="assents/img/favicon.png" type="image/x-icon" style="border: radius 2px;">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <title>Lu Organize</title>
 </head>
 <body>
-    <div class="container_body">
-        <div class="nav">
-            <div class="logo">
-                <img src="assents/img/logo.png" alt="">
-            </div>
-            <div class="nav_bar">
-                <ul class="nav_list">
-                    <li class="nav_item"><a href="index.html">Home</a></li>
-                    <li class="nav_item"><a href="servicos.html">Serviços</a></li>
-                    <li class="nav_item"><a href="contato.html">Contato</a></li>
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light style="background-color: #fffff; color: #DB6C6C">
+                <a class="navbar-brand" href="index.html">
+                    <img src="assents/img/logo.png" alt="logo" style="height: 70px;">
+                </a>
+                <button class="navbar-toggler" style="background-color: #db6c6c88;" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarNav" ">
+                <ul class="navbar-nav">
+                    <li class="nav-item ">
+                    <a class="nav-link" href="index.html" style="color: #DB6C6C;">Home</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="servicos.html "style="color: #DB6C6C;">Serviços</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="contato.html "style="color: #DB6C6C;">Contato</a>
+                    </li>
                 </ul>
-            </div>
-            <div class="mobile-menu-icon">
-                <button onclick="menuShow()"><img class="icon" src="assents/img/menu.png" alt=""></button>
-            </div>
-            <div class="mobile-menu">
-                <ul class="nav_list">
-                    <li class="nav_item"><a href="index.html">Home</a></li>
-                    <li class="nav_item"><a href="servicos.html">Serviços</a></li>
-                    <li class="nav_item"><a href="contato.html">Contato</a></li>
-                </ul>
-            </div>
-        </div>
-        <div class="section_servs">
-            <div class="container_1"></div>
-            <div class="container_2">
-                <div class="title_baby">
-                <h1>BABY ORGANIZE</h1>
                 </div>
-                <div class="p_baby">
-                <p>Organizamos o quartinho do seu bebê, deixando prontinho e o mais funcional  para facilitar a rotina que é tão corrida
-                    desse momento</p>
-                </div>
-            </div>
-            <div class="container_3"></div>
-            <div class="container_4"></div>
-            <div class="container_5"></div>
-            <div class="container_6"></div>
-            <div class="container_7"></div>
-            <div class="container_8"></div>
-        </div>
-        <div class="footer">
-            <h1>Siga Nossas Redes Socias</h1>
-            <div class="container_footer">
-                <div class="logo_footer">
-                    <img src="assents/img/logo.png" alt="">
-                </div>
-                <div class="icon_wpp">
-                    <a href="https://api.whatsapp.com/send/?phone=5511964312731&text&type=phone_number&app_absent=0">
-                    <img src="assents/img/icon_wp.png" alt="" >
-                    </a>
-                </div>
-                <div class="icon_footer">
-                    <div class="icon_redes">
-                        <a href="https://www.instagram.com/lu_organize/">
-                            <img src="assents/img/icon_ig.png" alt="">
-                        </a>
+        </nav>
+        <div class="container-fluid ">
+            <h1 class="display-1 text-center mt-3" style="color: #DB6C6C;">Serviços</h1>  
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col" style="width: 300px;" >
+                        <picture>
+                            <img class="img-fluid rounded" style="height: 550px;" src="assents/img/img_baby.jpg" alt="baby_organize">
+                        </picture>
+                        <div class=" position-relative" style=" width: 300px; top: -10px; border-radius: 10px; ">
+                            <h1 style="font-size: 30px; color: #ffff;background-color: #DB6C6C; border-radius: 10px;"">BABY <br> ORGANIZER</h1>
+                            <p>Preparamos e organizamos o quartinho do seu bebê, para ficar mais funcional possível, para facilitar a rotina tão corrida desse momento.</p>
+                        </div>
                     </div>
-                    <div class="icon_redes">
-                        <a href="https://www.instagram.com/lu_organize/">
-                            <img src="assents/img/icon_fb.png" alt="">
-                        </a>
+                    <div class="col" style="width: 300px;" >
+                            <picture>
+                                <img class="img-fluid rounded" style="height: 550px;" src="assents/img/img_mudancas.jpg" alt="baby_organize">
+                            </picture>
+                            <div class=" position-relative" style=" width: 300px;  top: -10px; border-radius: 10px;">
+                                <h1 style="font-size: 30px; color: #ffff;background-color: #DB6C6C; border-radius: 10px;"">ORGANIZAÇÃO DE MUDANÇAS</h1>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut veniam quisquam velit obcaecati maiores voluptatum soluta ad quasi, ullam labore. Veniam quae esse eius quasi numquam at architecto facilis! Beatae?</p>
+                            </div>
+                     </div>
+                </div>
+            </div>
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col" style="width: 300px;" >
+                        <picture>
+                            <img class="img-fluid rounded" style="height: 550px;" src="assents/img/img_residencial.jpg" alt="baby_organize">
+                        </picture>
+                        <div class=" position-relative" style=" width: 300px; top: -10px; border-radius: 10px;">
+                            <h1 style="font-size: 30px; color: #ffff;background-color: #DB6C6C; border-radius: 10px;">RESIDENCIAL ORGANIZER</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, facilis nobis? Quisquam doloremque nesciunt minus illum error. Sequi sint quam illo ad fugit esse commodi repellendus animi, illum, beatae molestias.</p>
+                        </div>
                     </div>
-                    <div class="icon_redes">
-                        <a href="https://www.instagram.com/lu_organize/">
-                            <img src="assents/img/icon_yt.png" alt="">
-                        </a>
+                    <div class="col" style="width: 300px;" >
+                            <picture>
+                                <img class="img-fluid rounded" style="height: 550px;" src="assents/img/img_mentorias,.jpg" alt="baby_organize">
+                            </picture>
+                            <div class=" position-relative" style="width: 300px; top: -10px; border-radius: 10px;">
+                                <h1 style="font-size: 30px; color: #ffff;background-color: #DB6C6C; border-radius: 10px;">MENTORIAS DE ORGANIZER</h1>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut veniam quisquam velit obcaecati maiores voluptatum soluta ad quasi, ullam labore. Veniam quae esse eius quasi numquam at architecto facilis! Beatae?</p>
+                            </div>
                     </div>
                 </div>
-                
             </div>
-            <p class="straw">Desenvolvido por Straw Hat Tech</p>
         </div>
     </div>
-    <script src="assents/js/script_menu.js"></script>
-    <script src="assents/js/script_banners.js"></script>
+    <div class="container-fluid position-relative fixed-bottom" style=" height: auto;">
+        <footer>
+            <h1 class="display-6 text-center mt-3"> Nossas Redes Socias</h1>
+            <div class="container">
+                <div class="row">
+                  <div class="col">
+                    <picture>
+                        <img src="assents/img/logo.png" alt="logo" class="img-fluid" n>
+                    </picture>
+                  </div>
+                  <div class="col-6">
+                    
+                  </div>
+                  <div class="col">
+                    <picture>
+                        <a href="https://api.whatsapp.com/send/?phone=5511964312731&text&type=phone_number&app_absent=0">
+                            <img src="assents/img/icon_wp.png" alt="whatsapp" class="img-fluid">
+                        </a>
+                    </picture>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                   
+                  </div>
+                  <div class="col-5">
+                    <div class="icon_footer">
+                        <div class="icon_redes">
+                            <a href="https://www.instagram.com/lu_organize/">
+                                <img src="assents/img/icon_ig.png" alt="">
+                            </a>
+                        </div>
+                        <div class="icon_redes">
+                            <a href="https://www.instagram.com/lu_organize/">
+                                <img src="assents/img/icon_fb.png" alt="">
+                            </a>
+                        </div>
+                        <div class="icon_redes">
+                            <a href="https://www.instagram.com/lu_organize/">
+                                <img src="assents/img/icon_yt.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    
+                  </div>
+                </div>
+              </div>
+            <p class="straw">Desenvolvido por Straw Hat Tech</p>
+        </div>
+        </footer>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 </html>
